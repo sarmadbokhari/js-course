@@ -110,8 +110,7 @@ describe("Events", function() {
     dog.on("bark", function(){
       console.log("woof");
     });
-
-    expect(dog.events.bark).toBe(true)
+    expect(dog.events.bark).toBeDefined();
 
   });
 
