@@ -1,7 +1,6 @@
 (function () {
 
-  var $root = $('#stats')
-    , rankTemplate = $("#templates .rank").html()
+  var $root = $('#stats'), rankTemplate = $("#templates .rank").html()
   ;
 
 // Model Interaction
